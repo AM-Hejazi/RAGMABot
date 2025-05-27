@@ -1,0 +1,57 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints
+
+# PyCharm project files (optional)
+.idea/
+
+# Logs and debug files
+logs/
+*.log
+
+# Database files (optional, keep your .sqlite if needed)
+*.sqlite3
+*.db
+
+# Configuration and secrets
+*.env
+.env
+
+# API Keys or secret config files
+secrets.*
+config.yaml
+*.key
+
+# Vector DB files (persistent local vector stores)
+vector_db/
+chroma.db/
+*.pkl
+
+# Embeddings files (precomputed vectors)
+data/embeddings/*.csv
+data/embeddings/*.pkl
+data/embeddings/*.json
+
+# Data files that can be regenerated
+data/schemas/*
+!data/schemas/README.md
+data/database/*
+!data/database/README.md
+
+# Cache or system files
+.DS_Store
+Thumbs.db
